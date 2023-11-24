@@ -6,7 +6,7 @@
 
 @Last Modified by: Author Name
 
-@Last Modified time: 2023-11-24 6:30:00
+@Last Modified time: 2023-11-24 7:00:00
 
 @Title : to print the Half Diamond Inverted star pattern
 
