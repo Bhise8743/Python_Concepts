@@ -1,4 +1,4 @@
-'''
+"""
 
 @Author: Omkar Bhise
 
@@ -10,7 +10,7 @@
 
 @Title : to print the Butterfly star pattern
 
-'''
+"""
 
 n = int(input("Enter the number "))
 
