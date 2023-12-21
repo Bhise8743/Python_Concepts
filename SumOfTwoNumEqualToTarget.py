@@ -31,6 +31,15 @@ Output: [0,1]
 
 
 def check_target():
+    """
+           Description:
+               it checks the sum of two numbers equal to the target or not
+               it takes the O(n2) time complexity
+           Parameter:
+               None
+
+           Return: None
+           """
     nums = [2, 9, 11, 15]
     target = 9
 
@@ -43,6 +52,14 @@ def check_target():
 
 
 def check_target_1():
+    """
+    Description:
+        it checks the sum of two numbers is equal to the target or not
+    Parameter:
+        None
+
+    Return: None
+    """
     num = [2, 7, 11, 15]
     target = 9
     num.sort()
