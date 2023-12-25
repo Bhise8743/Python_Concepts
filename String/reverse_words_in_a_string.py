@@ -13,31 +13,25 @@
 """
 
 
-def reverse_word(s):
-    ans = s.split()[::-1]
-    l = []
-    for i in ans:
-        l.append(i)
-    ans = " ".join(l)
-    print(ans)
+# write a python code to reverse the internal content of the word
+def reverse_internal_content_of_string(s):
+    l = s.split()
+    print(l)
+    l1 = []
+    for i in l:
+        l1.append(i[::-1])
+    out = " ".join(l1)
+    print(out)
 
-def reverse(s):
-    ans = list(s.split())
-    # print(ans)
-    ans.reverse()
-    l = []
-    for i in ans:
-        l.append(i)
-    print(" ".join(l))
 
-def revesered_w(s):
-    word = s.split(" ")
-    rev = " ".join(reversed(word))
-    print(rev)
+def revrese_w(s):
+    l = s.split()
+    l1 = l[::-1]
+    out = " ".join(l1)
+    print(out)
 
 
 if __name__ == '__main__':
     ans = input("Enter the string ")
-    reverse_word(ans)
-    reverse(ans)
-    reverse_word(ans)
+    revrese_w(ans)
+    reverse_internal_content_of_string(ans)
